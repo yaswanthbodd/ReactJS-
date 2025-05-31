@@ -4,15 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ClassBasedComponent from './components/ClassBasedComponent'
 import FunctionalComponent from './components/functional-component'
+import ProductList from './components/products'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const dummyProducts  = [ 'product 1', 'product 2', 'product 3'];
   return (
     <>
-      <h1>This is working</h1>
-      <ClassBasedComponent />
-      <FunctionalComponent />
+      <ProductList listOfProducts={dummyProducts} name="yaswanth" city="hyderabad" />
     </>
   )
 }
