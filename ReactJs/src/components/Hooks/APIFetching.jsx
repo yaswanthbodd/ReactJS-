@@ -27,7 +27,7 @@ const Fetching = ()=>{
 
      // console.log(`${usersList} users fetched from API`);
     if(pending) {
-        return <h1>Fetching users! Please wait</h1>
+        return <h1>Fetching users! wait...</h1>
     }
     return(
         <div>
