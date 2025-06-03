@@ -12,6 +12,9 @@ import ContextButtonComponent from './components/context-concepts/button'
 import ContextTextComponent from './components/context-concepts/text'
 import UseReducerExample from './components/useReducerExample'
 import UseReducerExam from './components/useReducerExample2'
+import FormComponent from './components/form'
+import LoginComponent from './components/login'
+import RegisterComponent from './components/register'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +30,12 @@ function App() {
       {/* <ContextButtonComponent />
       <ContextTextComponent /> */}
       {/* <UseReducerExample /> */}
-      <UseReducerExam />
+      {/* <UseReducerExam /> */}
+      {/* <FormComponent /> */}
+      <div style={{ display: 'flex', gap : '20px', justifyContent : 'center'}}>
+        <LoginComponent />
+        <RegisterComponent />
+      </div>
     </>
   )
 }
