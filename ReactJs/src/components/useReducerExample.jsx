@@ -12,7 +12,7 @@ const CHANGE_TEXT_STYLE = 'CHANGE_TEXT_STYLE';
 function reducer(state,action){
     switch(action.type){
         case HIDE_TEXT:
-            console.log(state,action);
+           // console.log(state,action);
             return {
                 ...state,
                 showTextFlag : false

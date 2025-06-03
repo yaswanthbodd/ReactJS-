@@ -11,6 +11,7 @@ import Fetching from './components/Hooks/APIFetching'
 import ContextButtonComponent from './components/context-concepts/button'
 import ContextTextComponent from './components/context-concepts/text'
 import UseReducerExample from './components/useReducerExample'
+import UseReducerExam from './components/useReducerExample2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,8 @@ function App() {
       {/* <Fetching /> */}
       {/* <ContextButtonComponent />
       <ContextTextComponent /> */}
-      <UseReducerExample />
+      {/* <UseReducerExample /> */}
+      <UseReducerExam />
     </>
   )
 }
