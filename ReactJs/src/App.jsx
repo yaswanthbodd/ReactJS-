@@ -10,6 +10,7 @@ import UseEffectHook from './components/Hooks/UseEffectHook'
 import Fetching from './components/Hooks/APIFetching'
 import ContextButtonComponent from './components/context-concepts/button'
 import ContextTextComponent from './components/context-concepts/text'
+import UseReducerExample from './components/useReducerExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,8 +23,9 @@ function App() {
       <UseEffectHook /> */}
 
       {/* <Fetching /> */}
-      <ContextButtonComponent />
-      <ContextTextComponent />
+      {/* <ContextButtonComponent />
+      <ContextTextComponent /> */}
+      <UseReducerExample />
     </>
   )
 }
