@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 
 const Fetching = ()=>{
     const [usersList, setUsersList] = useState([]);
-    const [pending, setPending] = useState(true);  
+    const [pending, setPending] = useState(false);  
 
     const fetchAllUsers = async () =>{
         try {
@@ -21,9 +21,9 @@ const Fetching = ()=>{
             console.log(error);
         }
     }
-    useEffect(()=>{
-        fetchAllUsers();
-    },[])
+    // useEffect(()=>{
+    //     fetchAllUsers();
+    // },[])
 
      // console.log(`${usersList} users fetched from API`);
     if(pending) {
@@ -32,6 +32,7 @@ const Fetching = ()=>{
     return(
         <div>
             <h1>All Users Data</h1>
+            <button onClick={fetchAllUsers}>Users List</button>
             <ul>
                 {
                     usersList && usersList.length > 0 ? usersList.map(userItem => (

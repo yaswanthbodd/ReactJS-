@@ -8,17 +8,22 @@ import ProductList from './components/products'
 import UseStateHook from './components/Hooks/UseStateHook'
 import UseEffectHook from './components/Hooks/UseEffectHook'
 import Fetching from './components/Hooks/APIFetching'
+import ContextButtonComponent from './components/context-concepts/button'
+import ContextTextComponent from './components/context-concepts/text'
 
 function App() {
   const [count, setCount] = useState(0)
   const dummyProducts  = [ 'product 1', 'product 2', 'product 3'];
   return (
     <>
+    <h1>ReactJS Components</h1>
       {/* <ProductList listOfProducts={dummyProducts} name="yaswanth" city="hyderabad" /> */}
       {/* <UseStateHook />
       <UseEffectHook /> */}
 
-      <Fetching />
+      {/* <Fetching /> */}
+      <ContextButtonComponent />
+      <ContextTextComponent />
     </>
   )
 }
