@@ -1,3 +1,4 @@
+import Background from "./components/background"
 import Card from "./components/Card"
 import Grid from "./components/Grid"
 import Navbar from "./components/navbar"
@@ -10,7 +11,8 @@ function App() {
     // <Grid />
     // <Card />
     // <Navbar />
-    <Positions />
+    // <Positions />
+    <Background />
   )
 }
 
