@@ -2,6 +2,7 @@ import Background from "./components/background"
 import Card from "./components/Card"
 import Filters from "./components/filters"
 import Grid from "./components/Grid"
+import Interactive from "./components/Interactive"
 import Navbar from "./components/navbar"
 import Positions from "./components/Positions"
 
@@ -14,7 +15,8 @@ function App() {
     // <Navbar />
     // <Positions />
     // <Background />
-    <Filters />
+    // <Filters />
+    <Interactive />
   )
 }
 
