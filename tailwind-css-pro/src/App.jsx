@@ -1,5 +1,6 @@
 import Background from "./components/background"
 import Card from "./components/Card"
+import Column from "./components/columns"
 import Filters from "./components/filters"
 import Grid from "./components/Grid"
 import Interactive from "./components/Interactive"
@@ -16,7 +17,8 @@ function App() {
     // <Positions />
     // <Background />
     // <Filters />
-    <Interactive />
+    // <Interactive />
+    <Column />
   )
 }
 
