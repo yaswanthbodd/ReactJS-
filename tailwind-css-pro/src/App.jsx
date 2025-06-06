@@ -8,6 +8,7 @@ import GridExam from "./components/gridExample"
 import Interactive from "./components/Interactive"
 import Navbar from "./components/navbar"
 import Positions from "./components/Positions"
+import { Transition } from "./components/Transition"
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
     // <Interactive />
     // <Column />
     // <Flex />
-    <GridExam />
+    // <GridExam />
+    <Transition />
   )
 }
 
