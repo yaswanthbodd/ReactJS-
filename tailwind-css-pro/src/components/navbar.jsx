@@ -5,10 +5,9 @@ function Navbar(){
                 <li>Home</li>
                 <li>News</li>
                 <li>About</li>
-                <div className="">
-                    <li>Login</li>
-                </div>
+                <li className="text-right">Login</li>
             </ul>
+            
         </div>
     )
 }
