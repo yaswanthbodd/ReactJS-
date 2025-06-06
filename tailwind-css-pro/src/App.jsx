@@ -1,3 +1,4 @@
+import Animation from "./components/Animation"
 import Background from "./components/background"
 import Card from "./components/Card"
 import Column from "./components/columns"
@@ -24,7 +25,8 @@ function App() {
     // <Column />
     // <Flex />
     // <GridExam />
-    <Transition />
+    // <Transition />
+    <Animation />
   )
 }
 
