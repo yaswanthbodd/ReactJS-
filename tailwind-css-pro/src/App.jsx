@@ -4,6 +4,7 @@ import Column from "./components/columns"
 import Filters from "./components/filters"
 import Flex from "./components/flex"
 import Grid from "./components/Grid"
+import GridExam from "./components/gridExample"
 import Interactive from "./components/Interactive"
 import Navbar from "./components/navbar"
 import Positions from "./components/Positions"
@@ -20,7 +21,8 @@ function App() {
     // <Filters />
     // <Interactive />
     // <Column />
-    <Flex />
+    // <Flex />
+    <GridExam />
   )
 }
 
