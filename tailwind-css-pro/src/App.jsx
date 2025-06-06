@@ -2,6 +2,7 @@ import Background from "./components/background"
 import Card from "./components/Card"
 import Column from "./components/columns"
 import Filters from "./components/filters"
+import Flex from "./components/flex"
 import Grid from "./components/Grid"
 import Interactive from "./components/Interactive"
 import Navbar from "./components/navbar"
@@ -18,7 +19,8 @@ function App() {
     // <Background />
     // <Filters />
     // <Interactive />
-    <Column />
+    // <Column />
+    <Flex />
   )
 }
 
