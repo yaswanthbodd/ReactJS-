@@ -5,16 +5,18 @@ import { MUIButtons } from "./components/MUIButtons"
 import { MuiTextFields } from "./components/MuiTextFields"
 import { MuiSelect } from "./components/MuiSelect"
 import { MuiRadioButton } from "./components/MuiRadioButton"
+import { MuiCheckBox } from "./components/MuiCheckBox"
 
 
 function App() {
   return (
-    <Box>
+    <Box margin={'40px'}>
       {/* <TypographyMUI /> */}
       {/* <MUIButtons /> */}
       {/* <MuiTextFields/> */}
       {/* <MuiSelect /> */}
-      <MuiRadioButton />
+      {/* <MuiRadioButton /> */}
+      <MuiCheckBox />
     </Box>
   )
 }
