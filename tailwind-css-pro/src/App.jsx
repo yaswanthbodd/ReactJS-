@@ -1,5 +1,6 @@
 import Animation from "./components/Animation"
 import Background from "./components/background"
+import { Border } from "./components/Border"
 import Buttons from "./components/buttons-bootstrap"
 import Card from "./components/Card"
 import Column from "./components/columns"
@@ -28,7 +29,8 @@ function App() {
     // <GridExam />
     // <Transition />
     // <Animation />
-    <Buttons />
+    // <Buttons />
+    <Border />
   )
 }
 
