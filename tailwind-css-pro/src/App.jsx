@@ -4,6 +4,7 @@ import { Border } from "./components/Border"
 import Buttons from "./components/buttons-bootstrap"
 import Card from "./components/Card"
 import Column from "./components/columns"
+import { Dropdown } from "./components/dropdown"
 import Filters from "./components/filters"
 import Flex from "./components/flex"
 import { Gallery } from "./components/gallery"
@@ -32,7 +33,8 @@ function App() {
     // <Animation />
     // <Buttons />
     // <Border />
-    <Gallery/>
+    // <Gallery/>
+    <Dropdown />
   )
 }
 
