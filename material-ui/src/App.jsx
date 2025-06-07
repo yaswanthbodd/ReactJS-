@@ -4,6 +4,7 @@ import { TypographyMUI } from "./components/typography"
 import { MUIButtons } from "./components/MUIButtons"
 import { MuiTextFields } from "./components/MuiTextFields"
 import { MuiSelect } from "./components/MuiSelect"
+import { MuiRadioButton } from "./components/MuiRadioButton"
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <TypographyMUI /> */}
       {/* <MUIButtons /> */}
       {/* <MuiTextFields/> */}
-      <MuiSelect />
+      {/* <MuiSelect /> */}
+      <MuiRadioButton />
     </Box>
   )
 }
