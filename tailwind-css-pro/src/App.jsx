@@ -4,6 +4,7 @@ import { Border } from "./components/Border"
 import Buttons from "./components/buttons-bootstrap"
 import Card from "./components/Card"
 import Column from "./components/columns"
+import { Dailog } from "./components/Dailog"
 import { Dropdown } from "./components/dropdown"
 import Filters from "./components/filters"
 import Flex from "./components/flex"
@@ -34,7 +35,8 @@ function App() {
     // <Buttons />
     // <Border />
     // <Gallery/>
-    <Dropdown />
+    // <Dropdown />
+    <Dailog />
   )
 }
 
