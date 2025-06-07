@@ -31,4 +31,8 @@
   .dark-mode{
     @apply bg-slate-800 text-white hover:bg-slate-950
   }
+
+  .gallery-image{
+    @apply border-2 border-blue-500 rounded-2xl hover:scale-110 transition duration-1000
+  }
 }

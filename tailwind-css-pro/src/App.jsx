@@ -6,6 +6,7 @@ import Card from "./components/Card"
 import Column from "./components/columns"
 import Filters from "./components/filters"
 import Flex from "./components/flex"
+import { Gallery } from "./components/gallery"
 import Grid from "./components/Grid"
 import GridExam from "./components/gridExample"
 import Interactive from "./components/Interactive"
@@ -30,7 +31,8 @@ function App() {
     // <Transition />
     // <Animation />
     // <Buttons />
-    <Border />
+    // <Border />
+    <Gallery/>
   )
 }
 
