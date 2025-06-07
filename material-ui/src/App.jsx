@@ -1,12 +1,13 @@
-import { BoxComp } from "./components/box-comp"
-import { CustomButton } from "./components/customized-button"
+import { Box } from "@mui/material"
+import { Landingpage } from "./main-folder/pages/LandingPage"
+import { TypographyMUI } from "./components/typography"
+
 
 function App() {
   return (
-    <div>
-      {/* <BoxComp /> */}
-      <CustomButton />
-    </div>
+    <Box>
+      <TypographyMUI />
+    </Box>
   )
 }
 
