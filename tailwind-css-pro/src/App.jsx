@@ -1,5 +1,6 @@
 import Animation from "./components/Animation"
 import Background from "./components/background"
+import Buttons from "./components/buttons-bootstrap"
 import Card from "./components/Card"
 import Column from "./components/columns"
 import Filters from "./components/filters"
@@ -26,7 +27,8 @@ function App() {
     // <Flex />
     // <GridExam />
     // <Transition />
-    <Animation />
+    // <Animation />
+    <Buttons />
   )
 }
 
