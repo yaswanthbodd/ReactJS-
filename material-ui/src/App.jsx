@@ -22,6 +22,7 @@ import { MuiAvatar } from "./components/MuiAvatar"
 import { MuiBadge } from "./components/MuiBadge"
 import { MuiList } from "./components/MuiList"
 import { MuiChip } from "./components/MuiChip"
+import { MuiTooltip } from "./components/MuiTooltip"
 
 
 
@@ -49,7 +50,8 @@ function App() {
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
       {/* <MuiList /> */}
-      <MuiChip />
+      {/* <MuiChip /> */}
+      <MuiTooltip />
     </Box>
   )
 }
