@@ -39,6 +39,7 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { MuiDateTimePicker } from "./components/MuiDateTimePicker"
 import { MuiTabs } from "./components/MuiTabs"
 import { MuiTimeLine } from "./components/MuiTimeLine"
+import { MuiResponsiveness } from "./components/MuiResponsiveness"
 
 function App() {
   return (
@@ -78,7 +79,8 @@ function App() {
       {/* <MuiDateTimePicker /> */}
       {/* <MuiDateRangePicker /> */}
       {/* <MuiTabs /> */}
-      <MuiTimeLine />
+      {/* <MuiTimeLine /> */}
+      <MuiResponsiveness />
     </Box>
     </LocalizationProvider>
   )
