@@ -14,6 +14,7 @@ import { MuiCard } from "./components/MuiCard"
 import { MuiAccordion } from "./components/MuiAccordion"
 import { MuiImageList } from "./components/MuiImageList"
 import { MuiNavbar } from "./components/MuiNavbar"
+import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs"
 
 
 
@@ -34,6 +35,7 @@ function App() {
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
       <MuiNavbar />
+      <MuiBreadcrumbs />
     </Box>
   )
 }
