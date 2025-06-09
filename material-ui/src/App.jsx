@@ -30,6 +30,7 @@ import { MuiDialog } from "./components/MuiDialog"
 import { MuiProgress } from "./components/MuiProgress"
 import { MuiSkeletion } from "./components/MuiSkeletion"
 import { SkeletionExample } from "./components/SkeletionExample"
+import { MuiLoadingButton } from "./components/MuiLoadingButton"
 
 
 
@@ -65,7 +66,8 @@ function App() {
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
       {/* <MuiSkeletion /> */}
-      <SkeletionExample />
+      {/* <SkeletionExample /> */}
+      <MuiLoadingButton />
     </Box>
   )
 }
