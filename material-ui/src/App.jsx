@@ -10,6 +10,7 @@ import { MuiSwitch } from "./components/MuiSwitch"
 import { MuiRating } from "./components/MuiRating"
 import { MuiAutoComplete } from "./components/MuiAutoComplete"
 import { MuiBoxLayout } from "./components/MuiBoxLayout"
+import { MuiCard } from "./components/MuiCard"
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
-      <MuiBoxLayout />
+      {/* <MuiBoxLayout /> */}
+      <MuiCard />
     </Box>
   )
 }
