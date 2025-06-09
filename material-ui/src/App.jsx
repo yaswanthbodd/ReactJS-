@@ -29,6 +29,7 @@ import { MuiSnackbar } from "./components/MuiSnackbar"
 import { MuiDialog } from "./components/MuiDialog"
 import { MuiProgress } from "./components/MuiProgress"
 import { MuiSkeletion } from "./components/MuiSkeletion"
+import { SkeletionExample } from "./components/SkeletionExample"
 
 
 
@@ -64,6 +65,7 @@ function App() {
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
       {/* <MuiSkeletion /> */}
+      <SkeletionExample />
     </Box>
   )
 }
