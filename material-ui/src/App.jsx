@@ -28,6 +28,7 @@ import { MuiAlert } from "./components/MuiAlert"
 import { MuiSnackbar } from "./components/MuiSnackbar"
 import { MuiDialog } from "./components/MuiDialog"
 import { MuiProgress } from "./components/MuiProgress"
+import { MuiSkeletion } from "./components/MuiSkeletion"
 
 
 
@@ -61,7 +62,8 @@ function App() {
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
-      <MuiProgress />
+      {/* <MuiProgress /> */}
+      {/* <MuiSkeletion /> */}
     </Box>
   )
 }
