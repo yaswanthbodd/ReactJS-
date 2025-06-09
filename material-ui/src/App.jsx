@@ -32,10 +32,14 @@ import { MuiSkeletion } from "./components/MuiSkeletion"
 import { SkeletionExample } from "./components/SkeletionExample"
 import { MuiLoadingButton } from "./components/MuiLoadingButton"
 
-
+// For Date and Time Picker 
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import { MuiDateTimePicker } from "./components/MuiDateTimePicker"
 
 function App() {
   return (
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
     <Box>
       {/* <TypographyMUI /> */}
       {/* <MUIButtons /> */}
@@ -67,8 +71,10 @@ function App() {
       {/* <MuiProgress /> */}
       {/* <MuiSkeletion /> */}
       {/* <SkeletionExample /> */}
-      <MuiLoadingButton />
+      {/* <MuiLoadingButton /> */}
+      <MuiDateTimePicker />
     </Box>
+    </LocalizationProvider>
   )
 }
 
