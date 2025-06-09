@@ -15,6 +15,7 @@ import { MuiAccordion } from "./components/MuiAccordion"
 import { MuiImageList } from "./components/MuiImageList"
 import { MuiNavbar } from "./components/MuiNavbar"
 import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs"
+import { MuiDrawer } from "./components/MuiDrawer"
 
 
 
@@ -35,7 +36,8 @@ function App() {
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
       <MuiNavbar />
-      <MuiBreadcrumbs />
+      {/* <MuiBreadcrumbs /> */}
+      <MuiDrawer />
     </Box>
   )
 }
