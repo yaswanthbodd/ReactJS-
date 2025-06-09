@@ -13,12 +13,13 @@ import { MuiBoxLayout } from "./components/MuiBoxLayout"
 import { MuiCard } from "./components/MuiCard"
 import { MuiAccordion } from "./components/MuiAccordion"
 import { MuiImageList } from "./components/MuiImageList"
+import { MuiNavbar } from "./components/MuiNavbar"
 
 
 
 function App() {
   return (
-    <Box margin={'40px'}>
+    <Box>
       {/* <TypographyMUI /> */}
       {/* <MUIButtons /> */}
       {/* <MuiTextFields/> */}
@@ -31,7 +32,8 @@ function App() {
       {/* <MuiBoxLayout /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiNavbar />
     </Box>
   )
 }
