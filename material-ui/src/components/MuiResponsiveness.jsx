@@ -12,7 +12,8 @@ export const MuiResponsiveness = ()=>{
                     lg : '400px',
                     xl : '500px'
                 },
-                bgcolor : 'primary.main'
+                bgcolor : 'secondary.main'
+                
             }}
         >
 
