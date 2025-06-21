@@ -4,6 +4,7 @@ import AnimatingElements from './components/AnimatingElements'
 import { yellow } from '@mui/material/colors'
 import IntialAnimation from './components/IntialAnimation'
 import Variants from './components/Variants'
+import AnimatePresenceExam from './components/AnimatePresenceExam'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Box sx={{ backgroundColor : 'yellow'}}>
           {/* <AnimatingElements /> */}
           {/* <IntialAnimation /> */}
-          <Variants />
+          {/* <Variants /> */}
+          <AnimatePresenceExam />
       </Box>
     </Container>
   )
