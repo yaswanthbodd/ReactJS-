@@ -4,10 +4,18 @@ import { UserForm } from "./UserForm"
 import { useState } from "react"
 import { NewUsers } from "./NewUsers"
 import { NewComments } from "./NewComments"
+import { useDispatch } from "react-redux"
+import { increment } from "./redux/counterSlice"
 
 export const PostDisplay = ()=> {
     const [commentDisplay, setCommentDisplay] = useState(false);
     const [userformDisplay, setUserformDisplay] = useState(false);
+
+    const dispatch = useDispatch()
+
+    const likeHandler = ()=> {
+        dispatch(increment())
+    }
 
     return(
         <Box display={'flex'} justifyContent={'space-around'}>
@@ -19,7 +27,7 @@ export const PostDisplay = ()=> {
                 <Stack gap={2} marginTop={4} direction={'row'} display={'flex'} justifyContent={'center'}>
                         <Button onClick={()=> setUserformDisplay(!userformDisplay)} variant="contained">Subscribe</Button>
                         <Button onClick={()=> setCommentDisplay(!commentDisplay)} variant="contained">Comment</Button>
-                        <Button variant="contained">Like</Button>
+                        <Button onClick={likeHandler} variant="contained">Like</Button>
                 </Stack>
                 <Box marginTop={4} display={'flex'} justifyContent={'center'}>
                     {
